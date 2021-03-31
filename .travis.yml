@@ -14,7 +14,7 @@ services:
 env:
   global:
     - GCP_PROJECT_ID=find-my-personal
-    - IMAGE=gcr.io/find_my_personal/find_my_personal
+    - IMAGE=gcr.io/find-my-personal/find_my_personal
     - CLOUD_RUN_SERVICE=find_my_personal
     - CLOUD_RUN_REGION=us-central1
     - CLOUDSDK_CORE_DISABLE_PROMPTS=1
